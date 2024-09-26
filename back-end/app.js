@@ -82,9 +82,9 @@ app.post('/messages/save', async (req, res) => {
 app.get('/about', (req, res) => {
   // JSON object containing personal information
   const aboutUsData = {
-    name: 'Vasily Belousov', 
-    description: 'My name is Vasily, I am an international student studying CS and Journalism. I love pizza, music, and traveling. I am taking this class because I want hands-on experience like I would get at a job.',
-    more_description: 'I love cats over dogs, play the guitar and the accordion and cook really good soups.',
+    name: 'Vasily (Vasya) Belousov', 
+    description: 'My name is Vasily, I am an international student studying CS and Journalism. I love pizza, music, cooking, and traveling. I am taking this class because I want hands-on experience like I would get at a job.',
+    // more_description: 'I love cats over dogs, play the guitar and the accordion and cook really good soups.',
     image: 'https://media.licdn.com/dms/image/v2/D4E03AQFCniV0joF9hQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1694797094140?e=1732752000&v=beta&t=DP36dN22jKXNEHHYT0IBNfT_lv2b8hxXlZWTblb9pmk',
   };
 

@@ -6,14 +6,17 @@
   .about-us h1 {
     font-size: 2em;
     margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .about-us h2 {
-    font-size: 1.5em;
+    font-size: 1em;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   .about-us img {
-    border-radius: 8px;
-    margin-top: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
   }
   
